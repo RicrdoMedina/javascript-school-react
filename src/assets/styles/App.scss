@@ -1,0 +1,45 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+@import "./KeyFrames.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $theme-font;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-family: $theme-font;
+  font-weight: bold;
+  font-size: 16px;
+  height: 50px;
+  letter-spacing: 1px;
+  margin-bottom: 10px 0;
+  outline: none;
+}
+
+.theme--purple {
+  background-color: $theme-color-purple;
+}
+
+.theme--green {
+  background-color: $theme-color-green;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+}
