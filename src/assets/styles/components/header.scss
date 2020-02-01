@@ -13,7 +13,7 @@ header {
 }
 
 .header--purple {
-  background-color: #8f57fd;
+  background-color: #6c37d4;
 }
 
 .header__img {
@@ -44,13 +44,16 @@ header {
 }
 .header__menu--profile img {
   margin-right: 0.5rem;
-  width: 1.5rem;
+  width: 3rem;
+  border: solid 2px #fff;
+  border-radius: 100%;
+  object-fit: cover;
 }
 
 .header__menu--list {
   display: none;
   position: absolute;
-  top: 2rem;
+  top: 2.5rem;
   right: 0;
   list-style: none;
   padding: 0;

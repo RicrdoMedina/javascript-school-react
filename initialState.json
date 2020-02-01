@@ -1,6 +1,10 @@
 {
   "initialState": {
-    "mylist": [],
+    "myList": [],
+    "trendsMatch": [],
+    "originalsMatch": [],
+    "myListMatch": [],
+    "query": null,
     "trends": [
       {
         "id": 2,
